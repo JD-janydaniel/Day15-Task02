@@ -166,7 +166,10 @@ let after_break14 = create_break();
 let button = document.createElement("button");
 button.setAttribute("type","button");
 button.setAttribute("value","button");
-button.addEventListener("click",buttonclick);
+button.addEventListener("click", function() {
+    buttonclick(); //function call for button click 
+    resetForm(); //function call for reset
+});
 button.innerText = "Submit"
 
 container.append(heading,first_label,first_break,first_input,after_break1,last_label,last_break,last_input,after_break2,address1_label,address1_break,address1_input,
@@ -176,6 +179,7 @@ container.append(heading,first_label,first_break,first_input,after_break1,last_l
  
     document.body.append(container);
     //code for creating table to display the form data
+
 let heading2 = document.createElement("h1");
 heading2.innerHTML = "Temporary Database"
 heading2.className = "head1"
@@ -252,6 +256,25 @@ let first = document.getElementById("firstname").value;
     td9.innerHTML= country1
 
 }
+//function to reset the form 
+function resetForm() {
+    document.getElementById("firstname").value = "";
+    document.getElementById("lastname").value = "";
+    document.getElementById("addressline1").value = "";
+    document.getElementById("addressline2").value = "";
+    document.getElementById("pin").value = "";
+    document.getElementById("male").checked = false;
+    document.getElementById("female").checked = false;
+    document.getElementById("northindia").checked = false;
+    document.getElementById("southindia").checked = false;
+    document.getElementById("chinese").checked = false;
+    document.getElementById("japanese").checked = false;
+    document.getElementById("seafood").checked = false;
+    document.getElementById("state").value = "";
+    document.getElementById("country").value = "";
+}
+
+
 
 tb_row.append(td1,td2,td3,td4,td5,td6,td7,td8,td9);
 tbody.append(tb_row);
