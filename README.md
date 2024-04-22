@@ -9,7 +9,11 @@
 <li>When the submit button is clicked form data should be displayed in the tabel</li>
 <li>Clear the form feeld after updating the record in the table tabel</li> 
   </ul>
-And the code pushed to the github repository<br>
-And deployed through netlify<br>
-submited the githib reposotry link<br>
-And also submited the deployment link
+  <ul>
+    <li>And the code pushed to the github repository</li>
+    <li>And deployed through netlify</li>
+    <li>submited the githib reposotry link</li>
+    <li>And also submited the deployment link</li>
+  </ul>
+<h3>Deployment Link</h3>
+https://superb-truffle-f28d15.netlify.app/
