@@ -1,106 +1,129 @@
-body{
-    background-image:linear-gradient(45deg,#ffcccc,#ffccf2);
+body {
+  background-image: repeating-radial-gradient(
+      circle at center center,
+      transparent 0px,
+      transparent 11px,
+      rgba(255, 255, 255, 0.04) 11px,
+      rgba(255, 255, 255, 0.04) 19px,
+      transparent 19px,
+      transparent 29px,
+      rgba(255, 255, 255, 0.04) 29px,
+      rgba(255, 255, 255, 0.04) 33px
+    ),
+    repeating-radial-gradient(
+      circle at center center,
+      rgb(0, 0, 0) 0px,
+      rgb(0, 0, 0) 5px,
+      rgb(0, 0, 0) 5px,
+      rgb(0, 0, 0) 17px,
+      rgb(0, 0, 0) 17px,
+      rgb(0, 0, 0) 30px,
+      rgb(0, 0, 0) 30px,
+      rgb(0, 0, 0) 43px,
+      rgb(0, 0, 0) 43px,
+      rgb(0, 0, 0) 45px,
+      rgb(0, 0, 0) 45px,
+      rgb(0, 0, 0) 47px
+    );
+  background-size: 53px 53px;
+  color: white;
 }
-.container{
-margin-left: 30%;
+.container1 {
+  margin-left: 30%;
 }
 
-.head{
-    font-size: 40px;
-    margin-left: 200px;
-    color:#558000;
-} 
-.head1{
-    font-size: 40px;
-    text-align: center;
-    color:#558000;
-} 
-#firstname{
-  width: 650px;
-  height:40px;
+#title {
+  text-align: center;
+  font-size: 40px;
+}
+#description {
+  text-align: center;
+  font-size: 32px;
+}
+.head1 {
+  font-size: 40px;
+  text-align: center;
+}
+#first-name {
+  width: 50%;
+  height: 40px;
   border-radius: 10px;
   font-size: 20px;
-  background-color:#ffccf2;
-  }
-
-  #lastname{
-    width: 650px;
-    height:40px;
-    border-radius: 10px;
-    font-size: 20px;
-    background-color:#ffccf2;
-    }
-    #addressline1{
-        width: 650px;
-        height:40px;
-        border-radius: 10px;
-        font-size: 20px;
-        background-color:#ffccf2;
-    }
-    #addressline2{
-        width: 650px;
-        height:40px;
-        border-radius: 10px;
-        font-size: 20px;
-        background-color:#ffccf2;
-    }
-    #pin{
-        width: 650px;
-        height:40px;
-        border-radius: 10px;
-        font-size: 20px;
-        background-color:#ffccf2;
-    }
-    #state{
-        width: 650px;
-        height:40px;
-        border-radius: 10px;
-        font-size: 20px;
-        background-color:#ffccf2;
-    }
-    #country{
-        width: 650px;
-        height:40px;
-        border-radius: 10px;
-        font-size: 20px;
-        background-color:#ffccf2;
-    }
-
-    .gender{
-        font-size: 25px;
-    }
-    .foodchoice{
-        font-size: 25px;
-    }
-    button{
-        width: 300px;
-        height:50px;
-        border-radius: 10px;
-        font-size: 30px;
-        margin-top:20px;
-        background-color:pink;
-        margin-left:170px;
-        color:#ff6600;
-    }
-
-    .main{
-        font-size: 30px;
-        text-align: left;
-        font-weight: 600;
-        
-    }
-    .main1{
-        font-size: 30px;
-        font-weight: 600;
 }
-table{
-    width:100%;
-    }
-   table,th,td{
-        text-align: center;
-        font-size: 25px;
-        border: 2px solid whitesmoke;
-        border-collapse: collapse;
-        height:50px;
-        border-color: #ccffcc;
-    }
+
+#last-name {
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+#address {
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+#address1 {
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+#pincode {
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+#state {
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+#country {
+  width: 50%;
+  height: 40px;
+  border-radius: 10px;
+  font-size: 20px;
+}
+
+.gender {
+  font-size: 25px;
+}
+.foodchoice {
+  font-size: 25px;
+}
+button {
+  width: 300px;
+  height: 50px;
+  border-radius: 10px;
+  font-size: 30px !important;
+  margin-top: 20px;
+  /* background-color:pink; */
+  margin-left: 170px;
+  color: #ff6600;
+}
+
+.main {
+  font-size: 30px;
+  text-align: left;
+  font-weight: 600;
+}
+.main1 {
+  font-size: 30px;
+  font-weight: 600;
+}
+.table {
+  width: 100vw;
+}
+.table,
+th,
+td {
+  text-align: center;
+  font-size: 25px;
+  border: 2px solid whitesmoke;
+  border-collapse: collapse;
+  height: 50px;
+  border-color: #ccffcc;
+}
