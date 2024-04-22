@@ -9,6 +9,7 @@
 <li>When the submit button is clicked form data should be displayed in the tabel</li>
 <li>Clear the form feeld after updating the record in the table tabel</li> 
   </ul>
+  <h3>Task Description</h3>
   <ul>
     <li>And the code pushed to the github repository</li>
     <li>And deployed through netlify</li>
